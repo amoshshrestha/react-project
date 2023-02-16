@@ -1,7 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Corouselcard from './spccard';
-import './corouselspec.css';
+import './styleCss/corouselspec.css';
 
 function Corouselspec() {
     const responsive = {
@@ -27,7 +27,8 @@ function Corouselspec() {
         <div>
         <Carousel responsive={responsive}
         autoPlaySpeed={500}>
-  <a href='#'><Corouselcard mt-90 imgsrc='images/head.png'name='Ent Center' description='Pathologicals,conditions of the ear, nose or throat.'/></a>
+<Corouselcard mt-90 imgsrc='images/head.png'name='Ent Center' description='Pathologicals,conditions of the ear, nose or throat.'/>
+
   <div><Corouselcard mt-90 imgsrc='images/head.png'name='Ent Center' description='Pathologicals,conditions of the ear, nose or throat.'/></div>
   <div><Corouselcard mt-90 imgsrc='images/head.png'name='Ent Center' description='Pathologicals,conditions of the ear, nose or throat.'/></div>
   <Corouselcard mt-90 imgsrc='images/head.png'name='Ent Center' description='Pathologicals,conditions of the ear, nose or throat.'/>

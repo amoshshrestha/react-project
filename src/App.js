@@ -2,15 +2,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navmain from './component/navbar';
-import Corouselcard from './component/spccard';
-import Corouselspec from './component/corouselowl';
+import Footer from './component/footer';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Navmain/> */}
+      <Navmain/>
       
-      <Corouselspec />
+      {/* <Corouselspec /> */}
+      <Footer />
+
     </div>
   );
 }
