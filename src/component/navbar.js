@@ -16,7 +16,7 @@ function Navmain() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end ' >
           <Nav className='justify-end'>
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link>Home</Nav.Link>
             <Nav.Link href="#link">Book an Appointment</Nav.Link>
             
             <NavDropdown title="Our Services" id="basic-nav-dropdown">
