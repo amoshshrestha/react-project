@@ -6,16 +6,14 @@ import Footer from './component/footer';
 import Corouselspec from './component/corouselowl';
 import Home from './pages/home';
 import BookAppointment from './pages/bookappointment';
-const App=()=> {
-  console.log("hello");
+import Form from './pages/addnewrecord';
 
+function App() {
   return (
     <div className="App">
-      {/* <Navmain/> */}
-      {/* <Home/> */}
-      <BookAppointment/>
-      {/* <Corouselspec />
-      <Footer /> */}
+        {/* <BookAppointment/> */}
+        {/* <Home/> */}
+        <Form/>
 
     </div>
   );
