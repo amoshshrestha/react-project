@@ -5,11 +5,10 @@ const BookAppointment =()=>{
 return(
     <div className="BookAppointment">
 <Navmain/>
-<Corouselspec />
+<Corouselspec/>
     </div>
 
 );
 
 }
-
 export default BookAppointment;
